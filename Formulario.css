@@ -1,0 +1,53 @@
+/* Fondo general */
+body {
+    font-family: Arial;
+    background-color: #d9e8ff;   /* AZUL SUAVE */
+    padding: 20px;
+}
+
+/* Títulos principales */
+h1 {
+    text-align: center;
+    color: #003366;
+}
+
+h2 {
+    text-align: center;
+    color: #004c99;
+}
+
+/* Caja del formulario */
+fieldset {
+    background-color: #ffffff;
+    border: 3px solid #004c99;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Leyenda del fieldset */
+legend {
+    background-color: #004c99;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+    
+
+/* Inputs y selects */
+input, select {
+    padding: 5px;
+    border: 2px solid #7aa3d9;
+    border-radius: 6px;
+    background-color: #f2f6ff; /* CELESTE CLARO */
+}
+
+/* Campos con tamaño más grande */
+.direccion {
+    width: 300px;
+}
+
+.cp {
+    width: 80px;
+}

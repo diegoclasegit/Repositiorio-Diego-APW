@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoja de Inscripción</title>
+<!-- Enlace al CSS externo (aquí van los colores) -->
+<link rel="stylesheet" href="Formulario.css">
+
+</head>
+<body>
+
+<h1>HOJA DE INSCRIPCIÓN</h1>
+<h2>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+
+<form>
+    <fieldset>
+        <legend>Datos Personales</legend>
+
+        <div class="fila">
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos">
+
+            <label>DNI:</label>
+            <input type="text" name="dni">
+        </div>
+
+        <div class="fila">
+            <label>Localidad Nacimiento:</label>
+            <input type="text" name="localidad">
+
+            <label>Provincia:</label>
+            <select name="provincia">
+                <option value="">- selecciona -</option>
+                <option>Sevilla</option>
+                <option>Madrid</option>
+                <option>Barcelona</option>
+                <option>Valencia</option>
+            </select>
+
+            <label>Fecha Nacimiento:</label>
+            <input type="text" placeholder="dd/mm/aaaa" name="fecha">
+        </div>
+
+        <div class="fila">
+            <label>Dirección:</label>
+            <input type="text" name="direccion" class="direccion">
+
+            <label>Código Postal:</label>
+            <input type="text" name="cp" class="cp">
+        </div>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
